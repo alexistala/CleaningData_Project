@@ -16,7 +16,7 @@ y_train <- read_delim("./train/y_train.txt",
                      " ", escape_double = FALSE, col_names = FALSE, 
                      trim_ws = TRUE)
 X_train <- read_delim("./train/X_train.txt", 
-                      ";", escape_double = FALSE, col_names = FALSE, 
+                      " ", escape_double = FALSE, col_names = FALSE, 
                       trim_ws = TRUE)
 subject_test <- read_delim("./test/subject_test.txt", 
                             " ", escape_double = FALSE, col_names = FALSE, 
