@@ -1,4 +1,6 @@
-The variable names are quite intuitive. I give just the names of few of them.
+# Variable names
+
+The variable names are quite intuitive. I give just the names of few of them. </br>
 
 Subject	The subject number </br>
 Activity	The activity </br>
@@ -88,3 +90,32 @@ fBodyAccMag-std()	 </br>
 fBodyBodyAccJerkMag-std()	 </br>
 fBodyBodyGyroMag-std()	 </br>
 fBodyBodyGyroJerkMag-std()	 </br>
+
+
+# Data
+
+Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.</br>
+Triaxial Angular velocity from the gyroscope.</br>
+A 561-feature vector with time and frequency domain variables.</br>
+Its activity label.</br>
+An identifier of the subject who carried out the experiment.</br>
+
+# Dataset
+
+mean(): Mean value</br>
+std(): Standard deviation</br>
+mad(): Median absolute deviation</br>
+max(): Largest value in array</br>
+min(): Smallest value in array</br>
+sma(): Signal magnitude area</br>
+energy(): Energy measure. Sum of the squares divided by the number of values.</br>
+iqr(): Interquartile range</br>
+entropy(): Signal entropy</br>
+arCoeff(): Autorregresion coefficients with Burg order equal to 4</br>
+correlation(): correlation coefficient between two signals</br>
+maxInds(): index of the frequency component with largest magnitude</br>
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency</br>
+skewness(): skewness of the frequency domain signal</br>
+kurtosis(): kurtosis of the frequency domain signal</br>
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.</br>
+angle(): Angle between to vectors.</br>
